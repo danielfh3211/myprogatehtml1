@@ -1,0 +1,32 @@
+/* Untuk Tablet */
+@media all and (max-width: 920px) {
+    .header-menu {
+      display: none;
+    }
+    .footer-item{
+        display: none;
+    }
+    .title h1{
+        font-size: 60px;
+    }
+      .title p{
+        font-size: 40px;
+    }
+  }
+
+
+/* Untuk Smartphone */
+@media all and (max-width: 720px) {
+    .title h1{
+      font-size: 40px;
+    }
+    .title p{
+        font-size: 30px;
+    }
+    input, textarea{
+        width:100%;
+    }
+    .container{
+        padding: 40px;
+    }
+  }
