@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+nav{
+    background-color: #404146;
+    color: #fff;
+    height: 90px;
+    display: flex;
+}
+
+.logo{
+    font-size: 40px;
+    font-weight: 200;
+    padding: 20px 40px;
+    float: left;
+}
+
+.header-menu li{
+    padding: 22px 20px;
+    float: left;
+}
+
+.title{
+    text-align: center;
+    padding: 40px 80px;
+}
+
+.title h1{
+    font-size: 80px;
+}
+
+.title p{
+    font-size: 50px;
+}
+
+.title span{
+    color: orange;
+}
+
+.title img{
+    width: 200px;
+}
+
+.container{
+    padding: 80px;
+    text-align: center;
+}
+
+.abu{
+    background-color: #F4F4F4;
+}
+
+.container h1{
+    margin-bottom: 50px;
+}
+
+.project-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-item{
+    padding: 0 20px;
+    flex: auto;
+    margin-bottom: 20px;
+}
+
+.project-item img{
+    width: 300px;
+}
+
+button{
+    padding: 10px 120px;
+    background-color: #e4fa23;
+    border-radius: 6px;
+}
+
+input, textarea{
+    width:75%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+footer{
+    height: 150px;
+    color: #fff;
+    background-color: #7C7D82;
+}
+
+.footer-item{
+    float: right;
+    padding: 16px 40px;
+}
+
+.footer-item li{
+    margin-bottom: 10px;
+}
